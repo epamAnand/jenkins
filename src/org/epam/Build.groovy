@@ -7,6 +7,7 @@ class Build implements Serializable {
 
 	Build(steps, config) {
 		this.steps = steps
+		this.config = config
 	}
 
 	def maven(args) {

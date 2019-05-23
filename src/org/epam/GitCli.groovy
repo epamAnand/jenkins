@@ -7,6 +7,7 @@ class GitCli implements Serializable {
 
 	GitCli(steps, config) {
 		this.steps = steps
+		this.config = config
 	}
 
 	def clone() {
