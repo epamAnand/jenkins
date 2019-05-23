@@ -9,7 +9,7 @@ class Build implements Serializable {
 		this.steps = steps
 	}
 
-	def clone(args) {
+	def maven(args) {
 		this.steps.sh config.command
 	}
 }
